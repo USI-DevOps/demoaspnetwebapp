@@ -57,16 +57,5 @@ pipeline {
         dir: "C:\\inetpub\\wwwroot\\demoaspnetwebapp"
       }
     }
-
-    stage('DeploytoAzure') {
-      steps {
-        //azureWebAppPublish appName: "DonetCoreApp",
-        //azureCredentialsId: "AzureJenkins",
-        //publishType: "file",
-        //filePath: "**/*.*",
-        //resourceGroup: "Learning",
-        //sourceDirectory: "demoaspnetwebapp\\publish"
-      }
-    }
   }
 }
